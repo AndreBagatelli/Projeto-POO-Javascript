@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+label {
+  text-transform: capitalize;
+}
+
+header {
+  background-color: blueviolet;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+main {
+  padding: 30px 50px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.lineInput {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+}
+
+button {
+  border: 0;
+  padding: 10px;
+  outline: 0;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+}
+
+button:hover {
+  background-color: rgb(93, 29, 152);
+}
+
+.content {
+  margin-top: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+table th {
+  background-color: #f3f0f0;
+}
+
+table th,
+td {
+  text-align: left;
+  padding: 1px 5px;
+}
+
+table td img {
+  width: 20px;
+  margin-top: 3px;
+}
+
+.center {
+  text-align: center;
+}

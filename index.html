@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Javascript POO</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>minha loja</h1>
+    </header>
+
+    <main>
+      <div class="title">
+        <h2>produtos</h2>
+        <span>Lista de produtos da minha loja.</span>
+      </div>
+
+      <div class="card">
+        <div class="lineInput">
+          <label>produto</label>
+          <input type="text" id="produto" placeholder="Nome do produto" />
+        </div>
+
+        <div class="lineInput">
+          <label>preço</label>
+          <input type="number" id="preco" placeholder="Valor do produto" />
+        </div>
+
+        <button onclick="produto.salvar()" id="btn1">salvar</button>
+        <button onclick="produto.cancelar()">cancelar</button>
+      </div>
+
+      <div class="content">
+        <table border="1">
+          <thead>
+            <th class="center">ID</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <th class="center">Ações</th>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
